@@ -1,3 +1,7 @@
+# this prompts user to name and
+# if name is Jake or Jackie the program prints hello Jake and jackie
+# and if it is any other name the program prints hello friend
+# if none of the above requirements are met the program ends
 name=input("Please Enter your Name:")
 if name==name:
     print("Hello Friend!!!")
@@ -6,6 +10,8 @@ elif name==('Jake' or 'Jackie'):
 else:
    print("Thank you for using the program.Goodbye")
    
+#     in this case we have different groups and their different 
+# job statuses according to age 
 age = int(input("How old are you please? "))
 if age < 18:
     print("Your are below the age of working.")
