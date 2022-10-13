@@ -1,7 +1,8 @@
 inputLine = ""
 
 while inputLine != "stop":
-    
+#     this is a grading program 
+# it helps users to grade according to the scores
     score = float(input("Please enter your score: "))
     if score >= 0 and score <= 1.0:
         if score >= 0.9:
