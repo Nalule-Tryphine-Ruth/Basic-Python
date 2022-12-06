@@ -1,4 +1,4 @@
-
+#this calculates age 
 birthyear = 2002
 def take3(name,bithyear,weight):
     today = 2022
